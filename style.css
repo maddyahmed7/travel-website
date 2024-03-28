@@ -230,7 +230,28 @@ body{
     margin-top: 30px;
 
  }
- 
+ @media only screen and (max-width: 600px) {
+  .topnav {
+      overflow: auto;
+  }
+  .container {
+      text-align: left;
+  }
+  .centered, .down-centered {
+      position: relative;
+      transform: translate(0%, 0%);
+  }
+  .bottom-left, .bottom-left-murree, .bottom-left-jaaz-banda {
+      position: relative;
+      padding: 5px;
+  }
+  .book-button-gilgit, .book-button-murree, .book-button-jaaz-banda {
+      position: relative;
+      margin-top: 10px;
+      left: 0;
+      transform: none;
+  }
+}
   
   
   
