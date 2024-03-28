@@ -239,7 +239,7 @@ body{
   }
   .centered, .down-centered {
       position: relative;
-      transform: translate(0%, 0%);
+      transform: translate(50%, 50%);
   }
   .bottom-left, .bottom-left-murree, .bottom-left-jaaz-banda {
       position: relative;
