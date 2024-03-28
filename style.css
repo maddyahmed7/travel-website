@@ -246,7 +246,7 @@ body{
       padding: 5px;
   }
   .book-button-gilgit, .book-button-murree, .book-button-jaaz-banda {
-      position: relative;
+      position: absolute;
       margin-top: 10px;
       left: 0;
       transform: none;
